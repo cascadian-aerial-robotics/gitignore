@@ -1,0 +1,44 @@
+# Ignores the generated output files by Pix4D. This is not a comprehensive list.
+# There are repetitions deliberatly as users may want to pick just a subset of outputs to ignore. 
+
+# Densified Point Cloud / Digital Surface Model (DSM)
+*.las
+*.laz
+*.xyz
+*.ply
+
+# Raster DSM / DTM
+# Orthomosaic
+*.tif
+
+# KML file
+*.kml
+
+# Grid Index Map Shapefile 
+*.shp
+
+# 3D Meshes
+*.obj
+*.fbx
+*.dxf
+*.dxf
+*.ply
+*.pdf
+*.osgb
+*.slpk
+
+# Contour lines
+*.shp
+*.pdf 
+*.dxf
+
+# Video animation
+*.mp4
+*.mkv
+*.avi
+
+# 3D Digitized objects / Polyline, Surface, Volume (base surface)
+*.shp
+*.dxf
+*.kml
+*.dgn
